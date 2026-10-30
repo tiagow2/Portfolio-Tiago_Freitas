@@ -2,14 +2,13 @@
 
 Portfólio pessoal e profissional de Tiago Freitas, estudante de Desenvolvimento de Software Multiplataforma na FATEC São José dos Campos e co-fundador da MOTUS Sports, com foco em desenvolvimento de aplicações web, mobile, APIs REST e produtos digitais.
 
-🔗 **Link do site publicado:** [https://SEU-DOMINIO.vercel.app](https://SEU-DOMINIO.vercel.app) *(substitua pelo seu link de produção)*
+🔗 **Link do site publicado:** [https://portfolio-tiago-freitas.vercel.app](https://portfolio-tiago-freitas.vercel.app)
 
 ---
 
 ## 📸 Preview
 
 ![Preview do Portfólio](./public/preview.png)
-*(Adicione uma captura de tela do portfólio na pasta `public/` ou na raiz do repositório)*
 
 ---
 
