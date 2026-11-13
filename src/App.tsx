@@ -510,16 +510,6 @@ function Contact() {
             BAIXAR CURRÍCULO [PDF]
           </a>
         </div>
-        <div className="contact-direct-info">
-          <span>// CANAL DIRETO:</span>
-          <a
-            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}&su=Contato%20via%20Portf%C3%B3lio%20-%20Oportunidade`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {profile.email}
-          </a>
-        </div>
       </div>
     </section>
   );
