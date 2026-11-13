@@ -152,7 +152,12 @@ function Hero() {
             <span className="btn-glitch" />
             VER PROJETOS →
           </a>
-          <a className="button secondary cyber-button" href={`mailto:${profile.email}`}>
+          <a
+            className="button secondary cyber-button"
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}&su=Contato%20via%20Portf%C3%B3lio%20-%20Oportunidade`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             ENTRAR EM CONTATO
           </a>
           <a
@@ -481,7 +486,12 @@ function Contact() {
           aprender com a equipe e gerar impacto real em produtos de tecnologia.
         </p>
         <div className="contact-actions">
-          <a className="button primary cyber-button" href={`mailto:${profile.email}`}>
+          <a
+            className="button primary cyber-button"
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}&su=Contato%20via%20Portf%C3%B3lio%20-%20Oportunidade`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             ENVIAR E-MAIL
           </a>
           <a className="button secondary cyber-button" href={profile.linkedin} target="_blank" rel="noreferrer">
@@ -498,6 +508,16 @@ function Contact() {
             download
           >
             BAIXAR CURRÍCULO [PDF]
+          </a>
+        </div>
+        <div className="contact-direct-info">
+          <span>// CANAL DIRETO:</span>
+          <a
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}&su=Contato%20via%20Portf%C3%B3lio%20-%20Oportunidade`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {profile.email}
           </a>
         </div>
       </div>

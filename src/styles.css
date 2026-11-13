@@ -1193,6 +1193,32 @@ button {
   font-size: clamp(2rem, 4vw, 3.4rem);
 }
 
+.contact-direct-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+}
+
+.contact-direct-info span {
+  color: var(--cp-yellow);
+}
+
+.contact-direct-info a {
+  color: var(--cp-cyan);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 180ms ease, text-shadow 180ms ease;
+}
+
+.contact-direct-info a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px var(--cp-cyan);
+}
+
 .cyber-contact-card p {
   max-width: 720px;
   margin: 18px 0 0;
