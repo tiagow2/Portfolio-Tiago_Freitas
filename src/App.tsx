@@ -165,7 +165,7 @@ function Hero() {
             href="/Curriculo_Tiago_Freitas_Dev.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download
+            download="Curriculo_Tiago_Freitas_Dev.pdf"
           >
             BAIXAR CURRÍCULO [PDF]
           </a>
@@ -505,7 +505,7 @@ function Contact() {
             href="/Curriculo_Tiago_Freitas_Dev.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download
+            download="Curriculo_Tiago_Freitas_Dev.pdf"
           >
             BAIXAR CURRÍCULO [PDF]
           </a>
